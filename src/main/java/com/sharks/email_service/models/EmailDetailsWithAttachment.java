@@ -8,8 +8,8 @@ import lombok.Setter;
 public class EmailDetailsWithAttachment extends EmailDetails {
 
     private byte[] attachmentBytes;
-
-    private String attachmentName, attachmentType;
+    private String attachmentName;
+    private String attachmentType;
 
     public EmailDetailsWithAttachment(
             String recipient,
